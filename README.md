@@ -57,3 +57,26 @@ Allocation logic ensures:
 - Priority based on deadline type
 
 ---
+
+# 🛠 Setup & Installation Guide
+
+This guide explains how to set up and run the Employee Management System locally.
+
+---
+
+# 📦 Prerequisites
+
+Make sure you have the following installed:
+
+- Python 3.10+
+- Node.js (v18+ recommended)
+- npm
+- PostgreSQL (or Supabase account)
+
+---
+
+# 🔹 Backend Setup (FastAPI)
+
+## 1️⃣ Clone the Repository
+
+
