@@ -1,0 +1,30 @@
+2026-02-12 01:06:23,832 - INFO - main - Starting application...
+2026-02-12 01:06:24,056 - INFO - sqlalchemy.engine.Engine - select pg_catalog.version()
+2026-02-12 01:06:24,057 - INFO - sqlalchemy.engine.Engine - [raw sql] {}
+2026-02-12 01:06:24,072 - INFO - sqlalchemy.engine.Engine - select current_schema()
+2026-02-12 01:06:24,073 - INFO - sqlalchemy.engine.Engine - [raw sql] {}
+2026-02-12 01:06:24,092 - INFO - sqlalchemy.engine.Engine - show standard_conforming_strings
+2026-02-12 01:06:24,093 - INFO - sqlalchemy.engine.Engine - [raw sql] {}
+2026-02-12 01:06:24,109 - INFO - sqlalchemy.engine.Engine - BEGIN (implicit)
+2026-02-12 01:06:24,114 - INFO - sqlalchemy.engine.Engine - SELECT pg_catalog.pg_class.relname 
+FROM pg_catalog.pg_class JOIN pg_catalog.pg_namespace ON pg_catalog.pg_namespace.oid = pg_catalog.pg_class.relnamespace 
+WHERE pg_catalog.pg_class.relname = %(table_name)s AND pg_catalog.pg_class.relkind = ANY (ARRAY[%(param_1)s, %(param_2)s, %(param_3)s, %(param_4)s, %(param_5)s]) AND pg_catalog.pg_table_is_visible(pg_catalog.pg_class.oid) AND pg_catalog.pg_namespace.nspname != %(nspname_1)s
+2026-02-12 01:06:24,115 - INFO - sqlalchemy.engine.Engine - [generated in 0.00086s] {'table_name': 'employee', 'param_1': 'r', 'param_2': 'p', 'param_3': 'f', 'param_4': 'v', 'param_5': 'm', 'nspname_1': 'pg_catalog'}
+2026-02-12 01:06:24,139 - INFO - sqlalchemy.engine.Engine - COMMIT
+2026-02-12 01:06:24,147 - INFO - main - Database tables ensured.
+2026-02-12 01:07:38,884 - INFO - main - Shutting down application...
+2026-02-12 01:07:40,100 - INFO - main - Starting application...
+2026-02-12 01:07:40,215 - INFO - sqlalchemy.engine.Engine - select pg_catalog.version()
+2026-02-12 01:07:40,221 - INFO - sqlalchemy.engine.Engine - [raw sql] {}
+2026-02-12 01:07:40,236 - INFO - sqlalchemy.engine.Engine - select current_schema()
+2026-02-12 01:07:40,237 - INFO - sqlalchemy.engine.Engine - [raw sql] {}
+2026-02-12 01:07:40,253 - INFO - sqlalchemy.engine.Engine - show standard_conforming_strings
+2026-02-12 01:07:40,253 - INFO - sqlalchemy.engine.Engine - [raw sql] {}
+2026-02-12 01:07:40,267 - INFO - sqlalchemy.engine.Engine - BEGIN (implicit)
+2026-02-12 01:07:40,272 - INFO - sqlalchemy.engine.Engine - SELECT pg_catalog.pg_class.relname 
+FROM pg_catalog.pg_class JOIN pg_catalog.pg_namespace ON pg_catalog.pg_namespace.oid = pg_catalog.pg_class.relnamespace 
+WHERE pg_catalog.pg_class.relname = %(table_name)s AND pg_catalog.pg_class.relkind = ANY (ARRAY[%(param_1)s, %(param_2)s, %(param_3)s, %(param_4)s, %(param_5)s]) AND pg_catalog.pg_table_is_visible(pg_catalog.pg_class.oid) AND pg_catalog.pg_namespace.nspname != %(nspname_1)s
+2026-02-12 01:07:40,272 - INFO - sqlalchemy.engine.Engine - [generated in 0.00072s] {'table_name': 'employee', 'param_1': 'r', 'param_2': 'p', 'param_3': 'f', 'param_4': 'v', 'param_5': 'm', 'nspname_1': 'pg_catalog'}
+2026-02-12 01:07:40,288 - INFO - sqlalchemy.engine.Engine - COMMIT
+2026-02-12 01:07:40,296 - INFO - main - Database tables ensured.
+2026-02-12 01:10:28,193 - INFO - main - Shutting down application...
