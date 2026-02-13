@@ -25,8 +25,8 @@ A Full-Stack Employee Management System built with modern technologies.
 
 # 🌐 Live Demo
 
-Frontend: https://your-frontend.vercel.app  
-Backend API: https://your-backend.onrender.com  
+Frontend: https://employee-management-rfix7wwmu-vidit-limjes-projects.vercel.app/
+Backend API: https://employeemanagement-vksl.onrender.com
 
 ---
 
